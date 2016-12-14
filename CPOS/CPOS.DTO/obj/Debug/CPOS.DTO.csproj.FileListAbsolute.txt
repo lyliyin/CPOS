@@ -1,4 +1,0 @@
-F:\基础框架APB\CPOS\CPOS.DTO\bin\Debug\CPOS.DTO.dll
-F:\基础框架APB\CPOS\CPOS.DTO\bin\Debug\CPOS.DTO.pdb
-F:\基础框架APB\CPOS\CPOS.DTO\obj\Debug\CPOS.DTO.dll
-F:\基础框架APB\CPOS\CPOS.DTO\obj\Debug\CPOS.DTO.pdb

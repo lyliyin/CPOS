@@ -1,5 +1,4 @@
-F:\基础框架APB\CPOS\CPOS.Domain\bin\Debug\CPOS.Domain.dll
-F:\基础框架APB\CPOS\CPOS.Domain\bin\Debug\CPOS.Domain.pdb
-F:\基础框架APB\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.csprojResolveAssemblyReference.cache
-F:\基础框架APB\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.dll
-F:\基础框架APB\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.pdb
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Domain\bin\Debug\CPOS.Domain.dll
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Domain\bin\Debug\CPOS.Domain.pdb
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.dll
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.pdb

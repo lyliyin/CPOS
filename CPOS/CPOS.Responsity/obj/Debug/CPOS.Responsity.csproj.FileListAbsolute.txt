@@ -1,7 +1,7 @@
-F:\基础框架APB\CPOS\CPOS.Responsity\bin\Debug\CPOS.Responsity.dll
-F:\基础框架APB\CPOS\CPOS.Responsity\bin\Debug\CPOS.Responsity.pdb
-F:\基础框架APB\CPOS\CPOS.Responsity\bin\Debug\CPOS.Model.dll
-F:\基础框架APB\CPOS\CPOS.Responsity\bin\Debug\CPOS.Model.pdb
-F:\基础框架APB\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.csprojResolveAssemblyReference.cache
-F:\基础框架APB\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.dll
-F:\基础框架APB\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.pdb
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\bin\Debug\CPOS.Responsity.dll
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\bin\Debug\CPOS.Responsity.pdb
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\bin\Debug\CPOS.Model.dll
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\bin\Debug\CPOS.Model.pdb
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.csprojResolveAssemblyReference.cache
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.dll
+C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.pdb
