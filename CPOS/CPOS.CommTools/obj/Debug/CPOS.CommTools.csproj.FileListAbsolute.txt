@@ -1,0 +1,11 @@
+F:\基础框架APB\CPOS\CPOS.CommTools\bin\Debug\CPOS.CommTools.dll
+F:\基础框架APB\CPOS\CPOS.CommTools\bin\Debug\CPOS.CommTools.pdb
+F:\基础框架APB\CPOS\CPOS.CommTools\obj\Debug\CPOS.CommTools.dll
+F:\基础框架APB\CPOS\CPOS.CommTools\obj\Debug\CPOS.CommTools.pdb
+F:\基础框架APB\CPOS\CPOS.CommTools\bin\Debug\AutoMapper.dll
+F:\基础框架APB\CPOS\CPOS.CommTools\bin\Debug\Castle.Core.dll
+F:\基础框架APB\CPOS\CPOS.CommTools\bin\Debug\Castle.Windsor.dll
+F:\基础框架APB\CPOS\CPOS.CommTools\bin\Debug\AutoMapper.xml
+F:\基础框架APB\CPOS\CPOS.CommTools\bin\Debug\Castle.Core.xml
+F:\基础框架APB\CPOS\CPOS.CommTools\bin\Debug\Castle.Windsor.xml
+F:\基础框架APB\CPOS\CPOS.CommTools\obj\Debug\CPOS.CommTools.csprojResolveAssemblyReference.cache
