@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using Castle.Windsor.Installer;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace CPOS.CommTools
 {
@@ -43,8 +45,6 @@ namespace CPOS.CommTools
             }
         }
     }
-
-
     public static class Tools
     {
         /// <summary>
@@ -54,10 +54,52 @@ namespace CPOS.CommTools
         /// <typeparam name="TTarget">目标实体类型</typeparam>
         /// <param name="sourcesentity">原实体数据</param>
         /// <returns></returns>
-        public static TTarget ObjectConvertToEntity<TSources, TTarget>(this TSources sourcesentity)
+        public static TTarget ObjectConvertToEntity<TSources, TTarget>(this Object sourcesentity)
         {
             Mapper.Initialize(cfg => cfg.CreateMap<TSources, TTarget>());
             return Mapper.Map<TTarget>(sourcesentity);
+        }
+        /// <summary>
+        /// 小数求和
+        /// </summary>
+        /// <param name="sources">元数据</param>
+        /// <param name="target">目标数据</param>
+        /// <returns>
+        /// sources+target
+        /// </returns>
+        public static decimal? Add(this decimal? sources, decimal? target)
+        {
+            if (sources == null)
+            {
+                sources = 0;
+            }
+
+            if (target == null)
+            {
+                target = 0;
+            }
+            return sources + target;
+        }
+        /// <summary>
+        /// 小数求差
+        /// </summary>
+        /// <param name="sources">元数据</param>
+        /// <param name="target">目标数据</param>
+        /// <returns>
+        /// sources-target
+        /// </returns>
+        public static decimal? Subtract(this decimal? sources, decimal? target)
+        {
+            if (sources == null)
+            {
+                sources = 0;
+            }
+
+            if (target == null)
+            {
+                target = 0;
+            }
+            return sources - target;
         }
     }
 }

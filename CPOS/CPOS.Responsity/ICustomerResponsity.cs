@@ -9,6 +9,6 @@ namespace CPOS.Responsity
 {
     public interface ICustomerResponsity
     {
-        T GetCustomerInfo<T>(string CustomerCode);
+        T GetCustomerInfo<T>(string CustomerCode,string CustomerId);
     }
 }

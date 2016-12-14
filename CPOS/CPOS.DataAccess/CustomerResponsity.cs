@@ -14,25 +14,36 @@ using CPOS.CommTools;
 
 namespace CPOS.DataAccess
 {
-    public class CustomerResponsity : ICustomerResponsity
+    public class CustomerResponsity : BaseEntity, ICustomerResponsity, IBaseResponsity
     {
         /// <summary>
         /// 到时候注入实体类信息就可以了
         /// </summary>
         /// <param name="CustomerCode"></param>
         /// <returns></returns>
-        public T GetCustomerInfo<T>(string CustomerCode)
+        public T GetCustomerInfo<T>(string CustomerCode, string CustomerId)
         {
-            string connectionStrings = string.Empty;
-            //using (var conn = new SqlConnection(connectionStrings))
-            //{
-            //conn.Open();
             var Parameter = new DynamicParameters();
             Parameter.Add("CustomerCode", CustomerCode);
             CustomerEntity entity = new CustomerEntity() { CustomerCode = "0011", CustomerName = "小银子" };// conn.Get<CustomerEntity>(Parameter);
-                                                                                                         //转换实体类型
+            //转换实体类型
             return entity.ObjectConvertToEntity<CustomerEntity, T>();
-            //  }
+        }
+        public void Add<T>(T model)
+        {
+            CustomerEntity customerentity = model.ObjectConvertToEntity<T, CustomerEntity>();
+            conn.Insert<CustomerEntity>(customerentity);
+        }
+        public void Update<T>(T model)
+        {
+            CustomerEntity customerentity = model.ObjectConvertToEntity<T, CustomerEntity>();
+            conn.Update<CustomerEntity>(customerentity);
+        }
+
+        public void Delete<T>(T model)
+        {
+            CustomerEntity customerentity = model.ObjectConvertToEntity<T, CustomerEntity>();
+            conn.Delete<CustomerEntity>(customerentity);
         }
     }
 }
