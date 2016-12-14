@@ -42,8 +42,11 @@
   <ItemGroup>
     <Compile Include="IBaseResponsity.cs" />
     <Compile Include="ICustomerResponsity.cs" />
+    <Compile Include="Message\ISendMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserRole\IRoleResponsity.cs" />
     <Compile Include="UserRole\IUserResponsity.cs" />
+    <Compile Include="UserRole\IUserRoleResponsity.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CPOS.Model\CPOS.Model.csproj">

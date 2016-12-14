@@ -1,9 +1,0 @@
-F:\基础框架APB\CPOS\CPOS.Model\bin\Debug\CPOS.Model.dll
-F:\基础框架APB\CPOS\CPOS.Model\bin\Debug\CPOS.Model.pdb
-F:\基础框架APB\CPOS\CPOS.Model\obj\Debug\CPOS.Model.csprojResolveAssemblyReference.cache
-F:\基础框架APB\CPOS\CPOS.Model\obj\Debug\CPOS.Model.dll
-F:\基础框架APB\CPOS\CPOS.Model\obj\Debug\CPOS.Model.pdb
-C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Model\bin\Debug\CPOS.Model.dll
-C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Model\bin\Debug\CPOS.Model.pdb
-C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Model\obj\Debug\CPOS.Model.dll
-C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Model\obj\Debug\CPOS.Model.pdb
