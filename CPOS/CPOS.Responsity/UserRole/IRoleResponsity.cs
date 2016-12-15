@@ -8,6 +8,8 @@ namespace CPOS.Responsity
 {
     public interface IRoleResponsity
     {
+        T GetRoleById<T>(string Id);
+        T GetRoleByCode<T>(string Code);
 
     }
 }
