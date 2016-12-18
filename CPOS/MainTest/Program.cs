@@ -19,7 +19,6 @@ namespace MainTest
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             List<UserEntity> products = Factories.Repository<IUserRoleResponsity>().FindUserRoleByUserIdOrRoleId<UserEntity>(null, null);
@@ -37,6 +36,17 @@ namespace MainTest
             //    UserPhone = "15221091529"
             //};
             //Factories.Repository<IUserResponsity>().Add<UserEntity>(user);
+            //RoleEntity role = new RoleEntity()
+            //{
+            //    CustomerId = BaseEntity.CustomerId,
+            //    IsDelete = "0",
+            //    RoleCode = "UserManager",
+            //    RoleId = Guid.NewGuid(),
+            //    RoleName = "人事管理者"
+            //};
+            //Factories.Repository<IRoleResponsity>().Add<RoleEntity>(role);
+
+
             string dir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Queue");
         }
     }
@@ -47,6 +57,7 @@ namespace MainTest
             container.Register(Component.For(typeof(ICustomerResponsity)).ImplementedBy(typeof(CustomerResponsity)));
             container.Register(Component.For(typeof(IUserRoleResponsity)).ImplementedBy(typeof(UserRoleResponsity)));
             container.Register(Component.For(typeof(IUserResponsity)).ImplementedBy(typeof(UserResponsity)));
+            container.Register(Component.For(typeof(IRoleResponsity)).ImplementedBy(typeof(RoleResponsity)));
         }
     }
 
