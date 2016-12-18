@@ -26,7 +26,7 @@ namespace MainTest
             //{
             //    CustomerId = BaseEntity.CustomerId,
             //    IsDelete = "0",
-            //    UserAddress = "湖北武汉新洲市",
+            //    UserAddress = "湖北武汉新洲 市",
             //    UserAge = "25", 
             //    UserCode = "jun.zhang",
             //    UserEmail = "15221091529@163.com",
