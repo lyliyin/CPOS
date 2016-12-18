@@ -34,10 +34,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Castle.Core">
-      <HintPath>..\..\..\CastleDemo\CastleDemo.DataAccess\bin\Debug\Castle.Core.dll</HintPath>
+      <HintPath>F:\CastleDemo\CastleDemo.DataAccess\bin\Debug\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Windsor">
-      <HintPath>..\..\..\CastleDemo\CastleDemo.DataAccess\bin\Debug\Castle.Windsor.dll</HintPath>
+      <HintPath>F:\CastleDemo\CastleDemo.DataAccess\bin\Debug\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

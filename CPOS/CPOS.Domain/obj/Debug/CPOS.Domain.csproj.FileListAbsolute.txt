@@ -2,3 +2,7 @@ C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Domain\bin\Debug\CPOS.Domain.dll
 C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Domain\bin\Debug\CPOS.Domain.pdb
 C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.dll
 C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.pdb
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Domain\bin\Debug\CPOS.Domain.dll
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Domain\bin\Debug\CPOS.Domain.pdb
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.dll
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Domain\obj\Debug\CPOS.Domain.pdb

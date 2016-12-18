@@ -7,8 +7,6 @@ using System.Threading.Tasks;
 using CPOS.Model;
 using System.Data.SqlClient;
 using Dapper;
-using DapperExtensions.Sql;
-using DapperExtensions;
 using AutoMapper;
 using CPOS.CommTools;
 
@@ -31,19 +29,16 @@ namespace CPOS.DataAccess
         }
         public void Add<T>(T model)
         {
-            CustomerEntity customerentity = model.ObjectConvertToEntity<T, CustomerEntity>();
-            conn.Insert<CustomerEntity>(customerentity);
+
         }
         public void Update<T>(T model)
         {
-            CustomerEntity customerentity = model.ObjectConvertToEntity<T, CustomerEntity>();
-            conn.Update<CustomerEntity>(customerentity);
+
         }
 
         public void Delete<T>(T model)
         {
-            CustomerEntity customerentity = model.ObjectConvertToEntity<T, CustomerEntity>();
-            conn.Delete<CustomerEntity>(customerentity);
+
         }
     }
 }

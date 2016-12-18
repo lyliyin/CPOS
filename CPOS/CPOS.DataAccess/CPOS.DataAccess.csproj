@@ -31,13 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoMapper">
-      <HintPath>..\..\..\AutoMapperAndDapper\AutoMapper.dll</HintPath>
+      <HintPath>F:\AutoMapperAndDapper\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="Dapper">
-      <HintPath>..\..\..\AutoMapperAndDapper\Dapper.dll</HintPath>
+      <HintPath>F:\AutoMapperAndDapper\Dapper.dll</HintPath>
     </Reference>
-    <Reference Include="DapperExtensions">
-      <HintPath>..\..\..\AutoMapperAndDapper\DapperExtensions.dll</HintPath>
+    <Reference Include="Dapper.Contrib">
+      <HintPath>F:\dll\Dapper.Contrib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,6 +55,9 @@
     <Compile Include="SendMessage\SendSSMSMessage.cs" />
     <Compile Include="SendMessage\SendWechatMessage.cs" />
     <Compile Include="SendMessage\SendWechatTemplateMessage.cs" />
+    <Compile Include="UserRole\RoleResponsity.cs" />
+    <Compile Include="UserRole\UserResponsity.cs" />
+    <Compile Include="UserRole\UserRoleResponsity.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CPOS.CommTools\CPOS.CommTools.csproj">
@@ -70,9 +73,7 @@
       <Name>CPOS.Responsity</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UserRole\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -5,3 +5,13 @@ C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\bin\Debug\CPOS.Model.pdb
 C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.csprojResolveAssemblyReference.cache
 C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.dll
 C:\Users\TEN\Desktop\XIAOYINZI\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.pdb
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\bin\Debug\CPOS.Responsity.dll
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\bin\Debug\CPOS.Responsity.pdb
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\bin\Debug\CPOS.Model.dll
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\bin\Debug\CPOS.Model.pdb
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.dll
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\obj\Debug\CPOS.Responsity.pdb
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\bin\Debug\Dapper.Contrib.dll
+C:\Users\Administrator\Desktop\cpos\CPOS\CPOS.Responsity\bin\Debug\Dapper.xml

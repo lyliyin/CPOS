@@ -48,7 +48,7 @@ namespace CPOS.CommTools
     public static class Tools
     {
         /// <summary>
-        /// 扩展方法
+        /// 表实体扩展方法
         /// </summary>
         /// <typeparam name="TSources">原实体类型</typeparam>
         /// <typeparam name="TTarget">目标实体类型</typeparam>
@@ -58,6 +58,19 @@ namespace CPOS.CommTools
         {
             Mapper.Initialize(cfg => cfg.CreateMap<TSources, TTarget>());
             return Mapper.Map<TTarget>(sourcesentity);
+        }
+
+        /// <summary>
+        /// 扩展方法
+        /// </summary>
+        /// <typeparam name="TSources">原实体类型</typeparam>
+        /// <typeparam name="TTarget">目标实体类型</typeparam>
+        /// <param name="sourcesentity">原实体数据</param>
+        /// <returns></returns>
+        public static List<TTarget> ObjectConvertToListEntity<TSources, TTarget>(this Object sourcesentity)
+        {
+            Mapper.Initialize(cfg => cfg.CreateMap<TSources, TTarget>());
+            return Mapper.Map<List<TTarget>>(sourcesentity);
         }
         /// <summary>
         /// 小数求和

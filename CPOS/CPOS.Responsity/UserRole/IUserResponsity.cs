@@ -17,5 +17,8 @@ namespace CPOS.Responsity
         /// <param name="CustomerId"></param>
         /// <returns></returns>
         T GetUserByCode<T>(string UserCode, string CustomerId);
+
+        void Add<T>(T model);
+
     }
 }

@@ -19,48 +19,34 @@ namespace MainTest
 {
     class Program
     {
-       
+
         static void Main(string[] args)
         {
-            Queue q = new Queue();
-            q.Enqueue("123");
-            q.Enqueue("456");
-            Console.WriteLine(q.Count.ToString());
-            // Expression<Func<CustomerEntity, bool>> expression = PredicateExtensions.True<CustomerEntity>();
-            //string CustomerCode = string.Empty;
-            //string CustomerId = string.Empty;
-            //var products = Factories.Repository<ICustomerResponsity>().GetCustomerInfo<xiaojunzi>(CustomerCode, CustomerId);
-
+            List<UserEntity> products = Factories.Repository<IUserRoleResponsity>().FindUserRoleByUserIdOrRoleId<UserEntity>(null, null);
+            //UserEntity user = new UserEntity()
+            //{
+            //    CustomerId = BaseEntity.CustomerId,
+            //    IsDelete = "0",
+            //    UserAddress = "湖北武汉新洲市",
+            //    UserAge = "25",
+            //    UserCode = "jun.zhang",
+            //    UserEmail = "15221091529@163.com",
+            //    UserId = Guid.NewGuid(),
+            //    UserName = "张俊",
+            //    UserPassword = "888888",
+            //    UserPhone = "15221091529"
+            //};
+            //Factories.Repository<IUserResponsity>().Add<UserEntity>(user);
             string dir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Queue");
-
-            ////添加队列
-            //List<xiaojunzi> models = new List<xiaojunzi>() { new xiaojunzi() { CustomerCode = "0011" }, new xiaojunzi() { CustomerCode = "jkb4" } };
-            //CustomerSerializable<xiaojunzi>.AddQuence(Guid.NewGuid().ToString(), models);
-
-            ////序列化到本地xml文件
-            //CustomerSerializable<xiaojunzi>.SerializableToLocal(models);
-
         }
-    }
-    [Serializable]
-    public class xiaojunzi
-    {
-        public xiaojunzi()
-        {
-
-        }
-        public string CustomerCode { get; set; }
-    }
-    public class xiaoyinzi
-    {
-        public string CustomerName { get; set; }
     }
     public class IoCInstaller : IWindsorInstaller
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
-            container.Register(Component.For(typeof(ICustomerResponsity)).ImplementedBy(typeof(CustomerResponsity)).Named("CastleDemo.DataAccess.RepositoryImpl"));
-
+            container.Register(Component.For(typeof(ICustomerResponsity)).ImplementedBy(typeof(CustomerResponsity)));
+            container.Register(Component.For(typeof(IUserRoleResponsity)).ImplementedBy(typeof(UserRoleResponsity)));
+            container.Register(Component.For(typeof(IUserResponsity)).ImplementedBy(typeof(UserResponsity)));
         }
     }
 
