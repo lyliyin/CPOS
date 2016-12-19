@@ -29,3 +29,7 @@ content
 /CPOS/packages/Newtonsoft.Json.6.0.4/lib/net35
 /CPOS/packages/Newtonsoft.Json.6.0.4/lib/net20/*.xml
 /CPOS/packages/Newtonsoft.Json.6.0.4/lib/net40
+/CPOS/CPOS.Domain/obj/Debug/*.cache
+/CPOS/packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.1.0
+/CPOS/CPOS.Responsity/obj/Debug/*.cache
+/CPOS/packages/jQuery.1.10.2/*.nuspec
