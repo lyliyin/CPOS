@@ -31,13 +31,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoMapper">
-      <HintPath>F:\AutoMapperAndDapper\AutoMapper.dll</HintPath>
+      <HintPath>..\..\..\XIAOYINZI\CPOS\MainTest\bin\Debug\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="Dapper">
-      <HintPath>F:\AutoMapperAndDapper\Dapper.dll</HintPath>
+      <HintPath>..\..\..\XIAOYINZI\CPOS\MainTest\bin\Debug\Dapper.dll</HintPath>
     </Reference>
     <Reference Include="Dapper.Contrib">
-      <HintPath>F:\dll\Dapper.Contrib.dll</HintPath>
+      <HintPath>..\..\..\Dapper.Contrib.dll</HintPath>
+    </Reference>
+    <Reference Include="DapperExtensions">
+      <HintPath>..\..\..\XIAOYINZI\CPOS\MainTest\bin\Debug\DapperExtensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -14,6 +14,10 @@ namespace CPOS.DataAccess
 {
     public class CustomerResponsity : BaseEntity, ICustomerResponsity, IBaseResponsity
     {
+        public CustomerResponsity()
+        {
+
+        }
         /// <summary>
         /// 到时候注入实体类信息就可以了
         /// </summary>

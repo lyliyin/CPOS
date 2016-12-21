@@ -8,6 +8,7 @@ using CPOS.Responsity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
@@ -54,11 +55,31 @@ namespace MainTest
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
-            container.Register(Component.For(typeof(ICustomerResponsity)).ImplementedBy(typeof(CustomerResponsity)));
+            container.Register(Component.For(typeof(ICustomerResponsity)).ImplementedBy(CreateInstances(getConfigSetting("CustomerResponsityImpl"))));
             container.Register(Component.For(typeof(IUserRoleResponsity)).ImplementedBy(typeof(UserRoleResponsity)));
             container.Register(Component.For(typeof(IUserResponsity)).ImplementedBy(typeof(UserResponsity)));
             container.Register(Component.For(typeof(IRoleResponsity)).ImplementedBy(typeof(RoleResponsity)));
         }
-    }
 
+        /// <summary>
+        /// 实例化类
+        /// </summary>
+        /// <param name="classname"></param>
+        /// <returns></returns>
+        public Type CreateInstances(string classname)
+        {
+            string NameSpace = getConfigSetting("responsitynamespace");
+            return Assembly.Load(NameSpace).CreateInstance(NameSpace + "." + classname).GetType();
+        }
+        /// <summary>
+        /// 获取配置信息
+        /// </summary>
+        /// <param name="settingName"></param>
+        /// <returns></returns>
+        public string getConfigSetting(string settingName)
+        {
+            return ConfigurationManager.AppSettings[settingName];
+
+        }
+    }
 }

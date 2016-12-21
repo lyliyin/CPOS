@@ -31,13 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AutoMapper">
-      <HintPath>F:\AutoMapperAndDapper\AutoMapper.dll</HintPath>
+      <HintPath>..\..\..\XIAOYINZI\CPOS\MainTest\bin\Debug\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Core">
-      <HintPath>F:\CastleDemo\CastleDemo.DataAccess\bin\Debug\Castle.Core.dll</HintPath>
+      <HintPath>..\..\..\XIAOYINZI\CPOS\MainTest\bin\Debug\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Windsor">
-      <HintPath>F:\CastleDemo\CastleDemo.DataAccess\bin\Debug\Castle.Windsor.dll</HintPath>
+      <HintPath>..\..\..\XIAOYINZI\CPOS\MainTest\bin\Debug\Castle.Windsor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
